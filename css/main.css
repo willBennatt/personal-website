@@ -1,3 +1,6 @@
+/* main styles that go on every page. These include the nav bar,
+   main, and footer */
+
 main {
   /* for nav bar */
   margin-top: 60px;
@@ -7,8 +10,8 @@ main {
 nav {
   position: fixed;
   top: 0;
-  padding: 5px 60px;
-  background-color: gray;
+  padding: 0px 60px;
+  background-color: whitesmoke;
   width: 100%;
   height: 60px;
   text-align: center;
@@ -17,12 +20,25 @@ nav {
 nav ul {
   list-style: none;
   display: inline-block;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 nav li {
   display: inline-block;
-  margin-left: 5px;
-  margin-right: 5px;
+}
+
+nav li a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  padding: 21px 15px;
+}
+
+nav li a:hover {
+  background-color: grey;
+  color: white;
 }
 
 .logo {
@@ -33,40 +49,45 @@ nav li {
   border-radius: 25px;
   position: absolute;
   left: 60px;
-}
-
-/* Name with Background */
-.name-bg {
-  position: relative;
-  top: 38px;
-  width: 100%;
-  height: 500px;
-  background-image: url("http://placekitten.com/1000/500");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  color: white;
-}
-
-.name-bg h1 {
-  vertical-align: middle;
-  line-height: 500px;
-}
-
-/* About me section */
-.about-img {
-  width: 100%;
-}
-
-/* School section */
-.school {
-  background-color: lightblue;
+  margin-top: 4px;
 }
 
 footer {
   text-align: center;
   margin-top: 20px;
-  padding: 30px;
-  background-color: darkgray;
+  padding: 30px 30px 5px 30px;
+  background-color: #BACACC;
+}
+
+footer .row {
+  padding: 20px 0;
+}
+
+/* Mobile default */
+.contact-item {
+  padding: 30px 0;
+}
+
+/* Non-mobile */
+@media only screen and (min-width: 640px) {
+  .contact-item {
+    padding: 0;
+  }
+}
+
+div.contact-desc {
+  display: inline-block;
+  text-align: left;
+  margin-left: 5px;
+}
+
+div.contact-desc h4 {
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+#in-icon {
+  height: 64px;
+  width: 64px;
+  margin-left: 8px;
 }

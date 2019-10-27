@@ -1,0 +1,22 @@
+.trip-thumbnail {
+  width: 100%;
+}
+
+/* Rotates phone pics so they are the right way up */
+.phone {
+  transform: rotate(90deg);
+  clip-path: inset(0 15% 0 5%);
+}
+
+.trip-link {
+  text-decoration: none;
+  color: black;
+}
+
+a.trip-link :hover {
+  background-color: #E8FDFF;
+  color: #747F80;
+}
+
+.post {
+}

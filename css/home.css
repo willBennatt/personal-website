@@ -1,0 +1,28 @@
+/* Name with Background */
+.name-bg {
+  position: relative;
+  top: 38px;
+  width: 100%;
+  height: 500px;
+  background-image: url("../images/brewster-clouds.JPG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.name-bg h1 {
+  vertical-align: middle;
+  line-height: 500px;
+}
+
+/* About me section */
+.about-img {
+  width: 100%;
+}
+
+/* School section */
+.school {
+  background-color: #E8FDFF;
+}
