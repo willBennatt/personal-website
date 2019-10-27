@@ -20,5 +20,5 @@
       <a href="https://linkedin.com/in/william-bennatt-243970174/"><img src="/images/LI-In-Bug.png" alt="LinkedIn icon" id="in-icon"></a>
     </div>
   </div>
-  <p>&copy 2019 William Bennatt</p>
+  <p>&copy <?php echo date("Y"); ?> William Bennatt</p>
 </footer>
