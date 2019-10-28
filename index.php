@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
     <meta charset="utf-8">
     <title>Will Bennatt</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,10 +18,6 @@
     <?php include "/home/users/web/b1693/ipg.willbennatt07405/footer.php"; ?>
 
     <!-- Scripts -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"></script>
-    <!-- <script src="js/reuse-header-footer.js"></script> -->
+    <script src="/js/navDropDown.js"></script>
   </body>
 </html>

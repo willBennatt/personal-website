@@ -10,16 +10,17 @@ main {
 nav {
   position: fixed;
   top: 0;
-  padding: 0px 60px;
+  /*padding: 0px 60px;*/
   background-color: whitesmoke;
-  width: 100%;
-  height: 60px;
+  width: 100vw;
+  /*height: 60px;*/
   text-align: center;
+  z-index: 1;
 }
 
 nav ul {
   list-style: none;
-  display: inline-block;
+  /*display: inline-block;*/
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -41,6 +42,10 @@ nav li a:hover {
   color: white;
 }
 
+nav li a.navIcon {
+  display: none;
+}
+
 .logo {
   display: inline-block;
   width: 50px;
@@ -48,8 +53,39 @@ nav li a:hover {
   border: 1px solid lightgrey;
   border-radius: 25px;
   position: absolute;
-  left: 60px;
+  left: 5%;
   margin-top: 4px;
+}
+
+/* Responsive Nav Bar */
+
+/* When screen is less than 600px wide, hide all
+   links except navIcon */
+@media screen and (max-width: 600px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav li a {
+    display: none;
+  }
+
+  nav li a.icon {
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JS
+   when user clicks on the icon. This displays links vertically */
+@media screen and (max-width: 600px) {
+  nav.responsive {
+    position: relative;
+  }
+
+  nav.responsive li a {
+    display: block;
+  }
 }
 
 footer {
