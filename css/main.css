@@ -71,7 +71,7 @@ nav li a.navIcon {
     display: none;
   }
 
-  nav li a.icon {
+  nav li a.navIcon {
     display: block;
   }
 }
@@ -80,7 +80,7 @@ nav li a.navIcon {
    when user clicks on the icon. This displays links vertically */
 @media screen and (max-width: 600px) {
   nav.responsive {
-    position: relative;
+    z-index: 10;
   }
 
   nav.responsive li a {

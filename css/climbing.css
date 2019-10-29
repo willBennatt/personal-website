@@ -6,6 +6,7 @@
 .phone {
   transform: rotate(90deg);
   clip-path: inset(0 15% 0 5%);
+  margin: 40px 0;
 }
 
 .trip-link {
