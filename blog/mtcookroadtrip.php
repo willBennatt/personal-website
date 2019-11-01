@@ -14,9 +14,11 @@
     <link rel="stylesheet" href="../css/blog.css" />
   </head>
   <body>
-    <?php echo file_get_contents("/home/users/web/b1693/ipg.willbennatt07405/nav.html"); ?>
-    <?php echo file_get_contents("/home/users/web/b1693/ipg.willbennatt07405/blog/mtcookroadtrip.html"); ?>
-    <?php include "/home/users/web/b1693/ipg.willbennatt07405/footer.php"; ?>
+    <?php
+      echo file_get_contents("/home/users/web/b1693/ipg.willbennatt07405/nav.html");
+      echo file_get_contents("/home/users/web/b1693/ipg.willbennatt07405/blog/mtcookroadtrip.html");
+      include "/home/users/web/b1693/ipg.willbennatt07405/footer.php";
+    ?>
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/progressive-image.js/dist/progressive-image.js"></script>

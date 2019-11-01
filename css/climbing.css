@@ -2,11 +2,11 @@
   width: 100%;
 }
 
-/* Rotates phone pics so they are the right way up */
-.phone {
-  transform: rotate(90deg);
-  clip-path: inset(0 15% 0 5%);
-  margin: 40px 0;
+/* Non-mobile */
+@media only screen and (min-width: 640px) {
+  .trip-thumbnail {
+    height: 200px;
+  }
 }
 
 .trip-link {

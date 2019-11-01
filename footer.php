@@ -5,7 +5,7 @@
       <img src="/images/resume-icon.png" alt="resume icon" class="contact-icon">
       <div class="contact-desc">
         <h4>Resume</h4>
-        <a href="#">resume.pdf</a>
+        <a href="/resume.pdf">resume.pdf</a>
       </div>
     </div>
     <div class="col-4 contact-item">

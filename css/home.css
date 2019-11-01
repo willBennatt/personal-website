@@ -18,9 +18,21 @@
   line-height: 500px;
 }
 
+.pc {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+  font-size: small;
+  color: lightgrey;
+}
+
 /* About me section */
 .about-img {
   width: 100%;
+}
+
+.xlarge {
+  font-size: x-large;
 }
 
 /* School section */

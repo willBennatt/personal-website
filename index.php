@@ -13,9 +13,11 @@
     <link rel="stylesheet" href="css/home.css" />
   </head>
   <body>
-    <?php echo file_get_contents("/home/users/web/b1693/ipg.willbennatt07405/nav.html"); ?>
-    <?php echo file_get_contents("/home/users/web/b1693/ipg.willbennatt07405/home.html"); ?>
-    <?php include "/home/users/web/b1693/ipg.willbennatt07405/footer.php"; ?>
+    <?php
+    echo file_get_contents("/home/users/web/b1693/ipg.willbennatt07405/nav.html");
+    echo file_get_contents("/home/users/web/b1693/ipg.willbennatt07405/home.html");
+    include "/home/users/web/b1693/ipg.willbennatt07405/footer.php";
+    ?>
 
     <!-- Scripts -->
     <script src="/js/navDropDown.js"></script>

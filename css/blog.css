@@ -1,7 +1,65 @@
-h1 {
+.main {
+  font-family: garamond;
+}
+
+.title {
   text-align: center;
+  padding: 0 20px;
+  max-width: 1000px;
+  margin: 0px auto 50px auto;
+}
+
+.title h1 {
+  font-family: palatino;
+  font-size: -webkit-xxx-large;
+}
+
+.date, .author {
+  font-size: large;
+}
+
+.date {
+  margin-right: 2%;
+}
+
+.author {
+  margin-left: 2%;
 }
 
 .full-width {
   width: 100%;
+}
+
+/* Used so I can enclose div .photo inside paragraphs */
+.p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: x-large;
+}
+
+.photo {
+  text-align: center;
+  font-size: large;
+  color: gray;
+}
+
+.no-padding {
+  padding: 0px 20px;
+}
+
+/* resizes, pads, and floats pictures left */
+.left {
+  width: 300px;
+  padding: 15px 15px 15px 0;
+  float: left;
+}
+
+/* resizes, pads, and floats pictures right */
+.right {
+  width: 300px;
+  padding: 15px 0 15px 15px;
+  float: right;
 }
